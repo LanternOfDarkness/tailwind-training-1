@@ -6,9 +6,31 @@
     <link href="css/style.css" rel="stylesheet" />
     <title>TailWind CSS study</title>
   </head>
-  <body class="bg-black min-h-screen min-w-full grid place-content-center">
-    <div class="bg-secondary w-52 h-24 grid place-content-center text-accent">
-      Hello World
-    </div>
+  <body class="bg-black min-h-screen min-w-full content-between">
+    <header class="flex flex-row mr-20 ml-20 mt-10 mb-10">
+      <div class="flex-1">
+        <img src="./images/logo.png" alt="logo" />
+      </div>
+      <div class="flex flex-auto items-center">
+        <input
+          class="flex text-primary bg-secondary p-3 rounded-3xl w-1/2 outline-none placeholder-primary"
+          type="text"
+          placeholder="Type something" />
+      </div>
+      <nav
+        class="flex text-primary flex-row w-4/12 items-center justify-between">
+        <a href="#" class="text-accent">Home</a>
+        <a href="#">Browse</a>
+        <a href="#">Details</a>
+        <a href="#">Streams</a>
+        <a href="#" class="bg-secondary inline-block p-1 pr-2 pl-4 rounded-3xl">
+          Profile
+          <img
+            class="inline rounded-3xl"
+            src="./images/profile-header.jpg"
+            alt="profile_picture" />
+        </a>
+      </nav>
+    </header>
   </body>
 </html>
