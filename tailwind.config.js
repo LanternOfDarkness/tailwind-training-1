@@ -8,6 +8,7 @@ module.exports = {
       primary: "#666",
       accent: "#ec6090",
       secondary: "#27292a",
+      yellow: "#f7df1e",
     },
     extend: {},
   },
